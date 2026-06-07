@@ -1,51 +1,31 @@
 body{
     margin:0;
-    font-family:Arial;
-    background:#ffe6f2;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(
+    135deg,
+    #ff9a9e,
+    #fad0c4,
+    #fad0c4);
     text-align:center;
+    color:white;
 }
 
 h1{
-    color:#ff3366;
+    font-size:60px;
+    margin-top:50px;
 }
 
-#lockScreen{
-    margin-top:100px;
-}
-
-input{
-    padding:10px;
-}
-
-button{
-    padding:10px 20px;
-    background:#ff3366;
-    color:white;
-    border:none;
-}
-.gallery{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+.note{
+    width:70%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:20px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(10px);
 }
 
 .gallery img{
     width:250px;
     border-radius:20px;
-}
-.note{
-    background:white;
-    padding:20px;
-    margin:20px;
-    border-radius:15px;
-}
-body::before{
-content:"❤️ ❤️ ❤️ ❤️ ❤️";
-position:fixed;
-top:0;
-left:0;
-width:100%;
-font-size:30px;
-opacity:.2;
+    margin:10px;
 }
