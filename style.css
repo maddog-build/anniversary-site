@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#ffe6f2;
+    text-align:center;
+}
+
+h1{
+    color:#ff3366;
+}
+
+#lockScreen{
+    margin-top:100px;
+}
+
+input{
+    padding:10px;
+}
+
+button{
+    padding:10px 20px;
+    background:#ff3366;
+    color:white;
+    border:none;
+}
+.gallery{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.gallery img{
+    width:250px;
+    border-radius:20px;
+}
+.note{
+    background:white;
+    padding:20px;
+    margin:20px;
+    border-radius:15px;
+}
+body::before{
+content:"❤️ ❤️ ❤️ ❤️ ❤️";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+font-size:30px;
+opacity:.2;
+}
