@@ -12,7 +12,7 @@ function checkPassword() {
         alert("Wrong Password");
     }
 }
-const anniversary = new Date("June 10, 2026");
+const anniversary = new Date("June 10, 2027");
 
 function updateCountdown(){
 
